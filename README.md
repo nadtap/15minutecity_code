@@ -15,19 +15,17 @@ Do people really live locally — or just theoretically could?
 
 ---
 
-## 🧠 Approach
+## Approach
 
 * GPS trajectories (~400 users, Budapest)
 * Home & workplace detection (clustering)
 * 15-minute isochrones around home
 * POI database (OpenStreetMap)
-* **Localization index**:
-
-  * share of activities within 15 minutes
+* **Localization index**: * share of activities within 15 minutes
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python (pandas, geopandas, sklearn)
 * Spatial analysis (OSM, isochrones)
